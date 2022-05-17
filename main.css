@@ -21,23 +21,53 @@ body {
     text-align: center; 
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .navbar2 {
+    width: 100%;
+    background-color:#4E9F3D;
+    overflow: auto;
+  }
+  
+  /* links de navegacion */
+  .navbar2 a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    color: #000;
+    text-decoration: none;
+    font-size: 17px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 20px;
+  }
+  .navbar2 i{
+      float: left;
+  }
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-    background-color: #000;
+    background-color: #d8e9a891;
   }
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: #04AA6D;
+    background-color: #1E5128;
   }
   
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
+  .Banner {
+      background-color: white;
       width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
-    }
+      min-height: 100px;
+      height: 100%;
   }
+   .Banner img{
+       margin-left: 20px;
+       width: 20%;
+   }
+
+   .redes{
+       float: right;
+       margin-top: 50px;
+       margin-right: 20px;
+   }
